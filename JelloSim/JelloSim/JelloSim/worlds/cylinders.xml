@@ -1,0 +1,32 @@
+<world>
+  <materials>
+    <material name="dark gray" density="1" friction="0.9" restitution="0.9" cr="0.2" cg="0.2" cb="0.2" />
+    <material name="light gray" density="1" friction="0.9" restitution="0.9" cr="0.7" cg="0.7" cb="0.7" />
+    <material name="dirt"         density="0" friction="0.9" restitution="0.4" cr="0.8" cg="0.6" cb="0.4" />
+  </materials>
+  <bodies>
+    <ground>
+      <bodymaterial name="dirt" />
+    </ground>
+<cylinder r="0.1" sx="0.20" sy="0.0" sz="0.00" ex="2.00" ey="1.0" ez="0.00"></cylinder>
+<cylinder r="0.1" sx="0.18" sy="0.0" sz="0.08" ex="1.85" ey="1.0" ez="0.77"></cylinder>
+<cylinder r="0.1" sx="0.14" sy="0.0" sz="0.14" ex="1.41" ey="1.0" ez="1.41"></cylinder>
+<cylinder r="0.1" sx="0.08" sy="0.0" sz="0.18" ex="0.77" ey="1.0" ez="1.85"></cylinder>
+<cylinder r="0.1" sx="-0.00" sy="0.0" sz="0.20" ex="-0.00" ey="1.0" ez="2.00"></cylinder>
+<cylinder r="0.1" sx="-0.08" sy="0.0" sz="0.18" ex="-0.77" ey="1.0" ez="1.85"></cylinder>
+<cylinder r="0.1" sx="-0.14" sy="0.0" sz="0.14" ex="-1.41" ey="1.0" ez="1.41"></cylinder>
+<cylinder r="0.1" sx="-0.18" sy="0.0" sz="0.08" ex="-1.85" ey="1.0" ez="0.77"></cylinder>
+<cylinder r="0.1" sx="-0.20" sy="0.0" sz="-0.00" ex="-2.00" ey="1.0" ez="-0.00"></cylinder>
+<cylinder r="0.1" sx="-0.18" sy="0.0" sz="-0.08" ex="-1.85" ey="1.0" ez="-0.77"></cylinder>
+<cylinder r="0.1" sx="-0.14" sy="0.0" sz="-0.14" ex="-1.41" ey="1.0" ez="-1.41"></cylinder>
+<cylinder r="0.1" sx="-0.08" sy="0.0" sz="-0.18" ex="-0.77" ey="1.0" ez="-1.85"></cylinder>
+<cylinder r="0.1" sx="0.00" sy="0.0" sz="-0.20" ex="0.00" ey="1.0" ez="-2.00"></cylinder>
+<cylinder r="0.1" sx="0.08" sy="0.0" sz="-0.18" ex="0.77" ey="1.0" ez="-1.85"></cylinder>
+<cylinder r="0.1" sx="0.14" sy="0.0" sz="-0.14" ex="1.41" ey="1.0" ez="-1.41"></cylinder>
+<cylinder r="0.1" sx="0.18" sy="0.0" sz="-0.08" ex="1.85" ey="1.0" ez="-0.77"></cylinder>
+
+
+  </bodies>
+</world>
+
+

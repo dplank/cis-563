@@ -1,0 +1,68 @@
+﻿Build started 2/21/2014 10:04:48 PM.
+     1>Project "S:\cis563\hw1\JelloSim_basecode\JelloSim\JelloSim.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\JelloSim.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\DevIL1.6.7\include /I..\tinyxml /I..\glut /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(234): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+                 s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(314) : see reference to class template instantiation 'math::matrix<T>' being compiled
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(235): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(242): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(243): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(244): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(247): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(259): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(260): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(261): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(262): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(264): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(444): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(454): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(516): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(529): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(553): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(586): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(611): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(620): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(646): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(663): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(670): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(677): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(701): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(709): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(756): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(885): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(938): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(972): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(987): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(1153): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>s:\cis563\hw1\jellosim_basecode\jellosim\matrix.h(1161): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>main.cpp(227): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>main.cpp(280): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>main.cpp(290): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>main.cpp(291): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\cis563\hw1\JelloSim_basecode\Release\JelloSim.exe" /NOLOGO /LIBPATH:..\DevIL1.6.7\lib /LIBPATH:..\tinyxml /LIBPATH:..\glut DevIL.lib ilu.lib ilut.lib glut32.lib tinyxml_STL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\JelloSim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"S:\cis563\hw1\JelloSim_basecode\Release\JelloSim.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\cis563\hw1\JelloSim_basecode\Release\JelloSim.lib" /MACHINE:X86 Release\camera.obj
+         Release\fps.obj
+         Release\jelloMesh.obj
+         Release\main.obj
+         Release\vec.obj
+         Release\world.obj
+         Generating code
+         Finished generating code
+         JelloSim.vcxproj -> S:\cis563\hw1\JelloSim_basecode\Release\JelloSim.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"S:\cis563\hw1\JelloSim_basecode\Release\JelloSim.exe;#1" /manifest Release\JelloSim.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\JelloSim.unsuccessfulbuild".
+         Touching "Release\JelloSim.lastbuildstate".
+     1>Done Building Project "S:\cis563\hw1\JelloSim_basecode\JelloSim\JelloSim.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.55

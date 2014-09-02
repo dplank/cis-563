@@ -1,0 +1,29 @@
+﻿Build started 2/11/2014 3:50:40 PM.
+     1>Project "S:\cis563\hw1\JelloSim_basecode\tinyxml\tinyxmlSTL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release_STL\tinyxmlSTL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D TIXML_USE_STL /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release_STL/" /Fd".\Release_STL/vc100.pdb" /FR".\Release_STL\\" /Gd /TP /analyze- /errorReport:prompt tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(S:\cis563\hw1\JelloSim_basecode\tinyxml\.\tinyxmlSTL.lib) does not match the Library's OutputFile property value (S:\cis563\hw1\JelloSim_basecode\tinyxml\tinyxml_STL.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(tinyxmlSTL) does not match the Library's OutputFile property value (tinyxml_STL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"tinyxml_STL.lib" /NOLOGO .\Release_STL/tinystr.obj
+         .\Release_STL/tinyxml.obj
+         .\Release_STL/tinyxmlerror.obj
+         .\Release_STL/tinyxmlparser.obj
+         tinyxmlSTL.vcxproj -> S:\cis563\hw1\JelloSim_basecode\tinyxml\.\tinyxmlSTL.lib
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Release_STL/tinyxmlSTL.bsc" .\Release_STL\tinystr.sbr .\Release_STL\tinyxml.sbr .\Release_STL\tinyxmlerror.sbr .\Release_STL\tinyxmlparser.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Release_STL\tinyxmlSTL.unsuccessfulbuild".
+         Touching ".\Release_STL\tinyxmlSTL.lastbuildstate".
+     1>Done Building Project "S:\cis563\hw1\JelloSim_basecode\tinyxml\tinyxmlSTL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.35

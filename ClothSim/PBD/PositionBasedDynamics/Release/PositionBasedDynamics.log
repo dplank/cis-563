@@ -1,0 +1,43 @@
+﻿Build started 3/8/2014 4:56:12 PM.
+     1>Project "S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\PositionBasedDynamics\PositionBasedDynamics.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\PositionBasedDynamics.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../tinyxml /I../glm /I../glew/include /I../freeglut/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\cloth_sim.cpp
+         cloth_sim.cpp
+     1>Source\cloth_sim.cpp(338): warning C4101: 'phi' : unreferenced local variable
+     1>Source\cloth_sim.cpp(423): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\cloth_sim.cpp(425): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\cloth_sim.cpp(429): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\cloth_sim.cpp(437): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\cloth_sim.cpp(439): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\cloth_sim.cpp(449): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\cloth_sim.cpp(451): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\cloth_sim.cpp(454): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Source\cloth_sim.cpp(468): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\cloth_sim.cpp(470): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\cloth_sim.cpp(562): warning C4101: 'norm_fraction' : unreferenced local variable
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\Release\PositionBasedDynamics.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../glew/lib /LIBPATH:../freeglut/lib /LIBPATH:../tinyxml tinyxml_STL.lib glew32.lib glu32.lib opengl32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PositionBasedDynamics.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\Release\PositionBasedDynamics.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\Release\PositionBasedDynamics.lib" /MACHINE:X86 Release\cloth_sim.obj
+         Release\constraint.obj
+         Release\main.obj
+         Release\scene.obj
+         Release\stb_image.obj
+         Release\stb_image_write.obj
+         Generating code
+         Finished generating code
+     1>tinyxml_STL.lib(tinyxml.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml_STL.lib(tinyxml.obj)' or at 'S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\Release\vc100.pdb'; linking object as if no debug info
+     1>tinyxml_STL.lib(tinyxmlerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml_STL.lib(tinyxmlerror.obj)' or at 'S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\Release\vc100.pdb'; linking object as if no debug info
+     1>tinyxml_STL.lib(tinyxmlparser.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'tinyxml_STL.lib(tinyxmlparser.obj)' or at 'S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\Release\vc100.pdb'; linking object as if no debug info
+         PositionBasedDynamics.vcxproj -> S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\Release\PositionBasedDynamics.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\Release\PositionBasedDynamics.exe;#1" /manifest Release\PositionBasedDynamics.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\PositionBasedDynamics.unsuccessfulbuild".
+         Touching "Release\PositionBasedDynamics.lastbuildstate".
+     1>Done Building Project "S:\cis563\hw2\PBD_starterkit_glut\PBD_starterkit\PositionBasedDynamics\PositionBasedDynamics.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.01

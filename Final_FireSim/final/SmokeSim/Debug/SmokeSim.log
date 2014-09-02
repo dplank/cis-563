@@ -1,0 +1,44 @@
+﻿Build started 5/4/2014 8:16:22 PM.
+     1>Project "S:\zimengy\CIS563_final\SmokeSim0504_projection\SmokeSim\SmokeSim.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SmokeSim.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IS:\zimengy\CIS563_final\SmokeSim0504_projection\\GLUT\ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SourceCode\basic_math.cpp SourceCode\camera.cpp SourceCode\constants.cpp SourceCode\fps.cpp SourceCode\grid_data.cpp SourceCode\mac_grid.cpp SourceCode\main.cpp SourceCode\smoke_sim.cpp SourceCode\vec.cpp
+         vec.cpp
+         smoke_sim.cpp
+         main.cpp
+         mac_grid.cpp
+         grid_data.cpp
+         fps.cpp
+         constants.cpp
+         camera.cpp
+         basic_math.cpp
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IS:\zimengy\CIS563_final\SmokeSim0504_projection\\GLUT\ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt SourceCode\stb_image.c SourceCode\stb_image_write.c
+         stb_image_write.c
+         stb_image.c
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\zimengy\CIS563_final\SmokeSim0504_projection\Debug\SmokeSim.exe" /NOLOGO /LIBPATH:S:\zimengy\CIS563_final\SmokeSim0504_projection\\GLUT\ opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SmokeSim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"S:\zimengy\CIS563_final\SmokeSim0504_projection\Debug\SmokeSim.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\zimengy\CIS563_final\SmokeSim0504_projection\Debug\SmokeSim.lib" /MACHINE:X86 Debug\basic_math.obj
+         Debug\camera.obj
+         Debug\constants.obj
+         Debug\fps.obj
+         Debug\grid_data.obj
+         Debug\mac_grid.obj
+         Debug\main.obj
+         Debug\smoke_sim.obj
+         Debug\stb_image.obj
+         Debug\stb_image_write.obj
+         Debug\vec.obj
+         LINK : S:\zimengy\CIS563_final\SmokeSim0504_projection\Debug\SmokeSim.exe not found or not built by the last incremental link; performing full link
+         SmokeSim.vcxproj -> S:\zimengy\CIS563_final\SmokeSim0504_projection\Debug\SmokeSim.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"S:\zimengy\CIS563_final\SmokeSim0504_projection\Debug\SmokeSim.exe;#1" /manifest Debug\SmokeSim.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SmokeSim.unsuccessfulbuild".
+         Touching "Debug\SmokeSim.lastbuildstate".
+     1>Done Building Project "S:\zimengy\CIS563_final\SmokeSim0504_projection\SmokeSim\SmokeSim.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.61
